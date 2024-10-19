@@ -9,7 +9,7 @@
         Login
       </button>
       <button
-        @click="handleShowAuthentication"
+        @click="handleShowSignUp"
         class="rounded-md bg-red-500 mt-5 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-700 transition-all duration-300"
       >
         Cadastre-se
@@ -18,3 +18,15 @@
   </div>
 </template>
 <style lang="scss" scoped></style>
+<script setup>
+function handleShowAuthentication() {
+  this.$router.push({
+    name: "login",
+  });
+}
+function handleShowAuthentication() {
+  this.$router.push({
+    name: "cadastro",
+  });
+}
+</script>
