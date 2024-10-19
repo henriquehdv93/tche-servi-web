@@ -1,0 +1,33 @@
+:root {
+	//Colors
+	--background-default: #FFFFFF;
+	--text-default: #303030;
+
+	--color-primary: #009a11;
+	--color-secondary: #005800;
+	--color-tertiary: #FF0000;
+	--color-gray-primary: #3f4a3c;
+	--color-gray-secondary: #a2af9f;
+
+	--color-button-disabled-border: #D2D4DA;
+	--color-button-disabled-background: #E8E9EC;
+	--color-button-disabled-text: #A5AAB6;
+
+
+	// Fonts
+	--font-primary: "Poppins", sans-serif;
+
+
+	// animations
+	--transition-default: all .3s;
+
+	//Breakpoints
+	--xs-max: 600px;
+	--sm-min: 600px;
+	--sm-max: 960px;
+	--md-min: 960px;
+	--md-max: 1264px;
+	--lg-min: 1264px;
+	--lg-max: 1904px;
+	--xl-min: 1904px;
+}
